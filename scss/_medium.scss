@@ -1,0 +1,29 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+nav {
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 1rem;
+    border: none;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: $greyColor;
+    text-decoration: underline;
+}
