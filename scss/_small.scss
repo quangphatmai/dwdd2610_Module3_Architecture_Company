@@ -78,12 +78,6 @@ nav ul li.active {
 
 
 
-
-
-
-
-
-
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
@@ -108,9 +102,34 @@ main picture {
     }
 } // end main picture
 
+
+video {
+    display: block;
+    width: 95%;
+    margin: 1rem $gutter;
+} // end video
+
+details {
+    width: 95%;
+    margin: 1rem $gutter;
+    padding: .5rem;
+    border: 1px solid $greyColor;
+    border-radius: 5px;
+    summary {
+        font-weight: $lightWeight;
+        color: $secondaryColor;
+        cursor: pointer;
+    }
+    p {
+        margin-top: .5rem;
+        color: #333;
+        line-height: $leading;
+    }
+} // end details
+
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-    background-color: $primaryColor
+    background-color: $primaryColor;
 } // end footer wrapper
 
 footer {

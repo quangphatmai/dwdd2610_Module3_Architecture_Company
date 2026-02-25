@@ -398,6 +398,30 @@ main picture img {
   width: 100%;
 }
 
+video {
+  display: block;
+  width: 95%;
+  margin: 1rem 10px;
+}
+
+details {
+  width: 95%;
+  margin: 1rem 10px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+details summary {
+  font-weight: 300;
+  color: #7c1d47;
+  cursor: pointer;
+}
+details p {
+  margin-top: 0.5rem;
+  color: #333;
+  line-height: 150%;
+}
+
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
   background-color: #1d295f;
@@ -478,5 +502,14 @@ footer a {
     display: block;
     width: 100%;
     max-width: 1500px;
+  }
+  video {
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  details {
+    width: 90%;
+    margin: 1rem auto;
   }
 }/*# sourceMappingURL=styles.css.map */
