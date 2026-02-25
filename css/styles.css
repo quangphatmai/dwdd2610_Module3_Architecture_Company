@@ -320,7 +320,7 @@ body {
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid lightgrey;
 }
 
 header {
@@ -334,13 +334,12 @@ header {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1d295f;
+  color: #1f7f55;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
-  background-color: #1d295f;
-  border-bottom: 1px solid #ccc;
+  background-color: #1f7f55;
 }
 
 nav {
@@ -357,7 +356,9 @@ nav ul li {
   padding: 0.8rem 0;
   text-align: center;
   list-style-type: none;
-  border-bottom: #a7a7a7 0.5px solid;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(to right, transparent, white, transparent) 1;
+     border-image: linear-gradient(to right, transparent, white, transparent) 1;
 }
 nav ul li a {
   color: #fff;
@@ -370,7 +371,7 @@ nav ul li:last-child {
 }
 
 nav ul li.active {
-  background-color: #7c1d47;
+  background-color: #0d313a;
 }
 nav ul li.active a {
   color: #fff;
@@ -380,7 +381,7 @@ nav ul li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #7c1d47;
+  color: #01377d;
   font-weight: 300;
 }
 main p {
@@ -408,12 +409,12 @@ details {
   width: 95%;
   margin: 1rem 10px;
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid lightgrey;
   border-radius: 5px;
 }
 details summary {
   font-weight: 300;
-  color: #7c1d47;
+  color: #01377d;
   cursor: pointer;
 }
 details p {
@@ -424,18 +425,18 @@ details p {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #1d295f;
+  background-color: #1f7f55;
 }
 
 footer {
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: #ccc;
+  color: white;
   text-align: center;
   line-height: 150%;
 }
 footer a {
-  color: #ccc;
+  color: white;
 }
 
 @media only screen and (min-width: 31.25rem) {
@@ -460,8 +461,9 @@ footer a {
     text-decoration: none;
   }
   nav ul li a:hover {
-    color: #ccc;
+    color: white;
     text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 @media only screen and (min-width: 62.5rem) {
@@ -490,7 +492,7 @@ footer a {
     text-decoration: none;
   }
   nav ul li a:hover {
-    color: #ccc;
+    color: white;
     text-decoration: underline;
   }
   /* --------------------------- MAIN --------------------------- */

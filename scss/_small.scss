@@ -39,7 +39,6 @@ header {
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
     background-color: $primaryColor;
-    border-bottom: 1px solid $greyColor;
 } // end nav wrapper
 
 nav {
@@ -56,7 +55,8 @@ nav ul li{
     padding: .8rem 0;
     text-align: center;
     list-style-type: none;
-    border-bottom: #a7a7a7 .5px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, transparent, white, transparent) 1;
     a {
         color: #fff;
         font-size: 0.9rem;
@@ -69,7 +69,7 @@ nav ul li:last-child {
 }
 
 nav ul li.active {
-    background-color: $secondaryColor;
+    background-color: $accentColor;
     a {color: #fff;}
 }
 
@@ -135,8 +135,8 @@ details {
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: white;
     text-align: center;
     line-height: $leading;
-    a {color: $greyColor;}
+    a {color: white;}
 }// end footer
